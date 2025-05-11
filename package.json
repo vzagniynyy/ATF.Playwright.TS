@@ -1,0 +1,27 @@
+{
+  "name": "atf.playwright.ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "echo pretest",
+    "test": "npx cypress run --browser chrome --env allure=true",
+    "test:mocha": "npx cypress run --browser chrome --reporter mocha-allure-reporter",
+    "allure:report": "allure generate allure-results",
+    "allure:open": "allure open allure-report",
+    "posttest": "echo posttest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.17",
+    "allure-commandline": "^2.34.0",
+    "allure-playwright": "^3.2.1",
+    "dotenv": "^16.5.0"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.1"
+  }
+}
