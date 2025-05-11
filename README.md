@@ -14,12 +14,8 @@ XPath and CCSPath will be used to locate web elements.
 * [Environment Setup](#environment-setup)
 * [First-Time Setup](#first-time-setup)
 * [Local Development Quick Start](#local-development-quick-start)
-* [Open Cypress](#open-cypress)
 * [Tests Coniguration](#tests-configuration)
 * [Run tests from the command line](#run-tests-from-the-command-line)
-* [Screenshots and Videos](#screenshots-and-videos)
-* [Parallelization](#parallelization)
-* [CI/CD integration](#cicd-integration)
 
 # Project Structure
 
