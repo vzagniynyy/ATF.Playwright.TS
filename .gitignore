@@ -9,6 +9,4 @@ node_modules/
 /allure-results/
 
 # dotenv environment variables file
-.env
-.env.dev
-.env.test
+
